@@ -1,0 +1,19 @@
+{
+  "name": "apiproductoswlazo",
+  "version": "1.0.0",
+  "description": "API REST productos William Lazo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/William3456/ApiProductosWLazo.git"
+  },
+  "author": "William Lazo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/William3456/ApiProductosWLazo/issues"
+  },
+  "homepage": "https://github.com/William3456/ApiProductosWLazo#readme"
+}
