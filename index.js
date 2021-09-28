@@ -37,6 +37,6 @@ app.get('/', (req, res) =>{
     res.send("Hello world!");
 });
 
-app.listen(8985, () =>{
+app.listen(process.env.PORT || 8985, () =>{
     console.log("API REST is running on 8985 port");
 });
