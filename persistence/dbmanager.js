@@ -34,7 +34,7 @@ exports.product_read = function(req, res){
         res.send(Product);
     });
 }
-//UPDATE
+//Actualizar
 exports.product_update = function(req, res){
     Product.findByIdAndUpdate(req.query.id, {$set: req.body} ,function(err){
         if(err) return next(err);
@@ -42,7 +42,7 @@ exports.product_update = function(req, res){
         res.send({'message':'updated'});
     });
 }
-// DELETE
+//Eliminar
 exports.product_delete = function(req, res){
     Product.findByIdAndRemove(req.query.id, function(err, Product){
         if(err) return next(err);

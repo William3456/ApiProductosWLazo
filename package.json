@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/William3456/ApiProductosWLazo#readme",
   "dependencies": {
-    "express":"*",
-    "body-parser":"*",
+    "express": "*",
+    "body-parser": "*",
     "cors": "*",
     "mongoose": "*"
- }
+  }
 }
