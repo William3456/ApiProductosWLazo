@@ -20,7 +20,6 @@
     "express":"*",
     "body-parser":"*",
     "cors": "*",
-    "mongoose": "*",
-    
+    "mongoose": "*"
  }
 }
