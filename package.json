@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/William3456/ApiProductosWLazo/issues"
   },
-  "homepage": "https://github.com/William3456/ApiProductosWLazo#readme"
+  "homepage": "https://github.com/William3456/ApiProductosWLazo#readme",
+  "dependencies": {
+    "express":"*",
+    "body-parser":"*",
+    "cors": "*",
+    "mongoose": "*",
+    
+ }
 }
